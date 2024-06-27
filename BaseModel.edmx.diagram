@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="82eca7594379402b8f5bcc54914ed5b6" Name="Diagram1">
+        <EntityTypeShape EntityType="Hotel_bdEntities.additional_orders" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.booking" Width="1.5" PointX="8.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.booking_status" Width="1.5" PointX="6" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.cleaning_name" Width="1.5" PointX="10.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.cleaning_type" Width="1.5" PointX="13" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.client_rating" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.clients" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.company" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.department" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.document_types" Width="1.5" PointX="6" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.documents" Width="1.5" PointX="8.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.employees" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.property" Width="1.5" PointX="6" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.property_room" Width="1.5" PointX="8.25" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.room_type" Width="1.5" PointX="3.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.rooms" Width="1.5" PointX="6" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.service" Width="1.5" PointX="10.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.service_name" Width="1.5" PointX="8.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.sysdiagrams" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.tarifs" Width="1.5" PointX="6" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.task_list" Width="1.5" PointX="13" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.timetable" Width="1.5" PointX="15.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.transaction" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.type_operation" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.User" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_bdEntities.works" Width="1.5" PointX="10.75" PointY="2.75" IsExpanded="true" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_additional_orders_clients" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_additional_orders_employees" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_service_additional_orders1" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_booking_booking_status" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_booking_clients" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_booking_employees" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_booking_rooms" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_booking_tarifs" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_cleaning_type_cleaning_name" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_task_list_cleaning_name" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_Графики_виды_уборок" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_clients_client_rating" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_documents_clients" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_employees_company" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_employees_department" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_documents_document_types" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_employees_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_transaction_employees" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_property_room_property" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_property_room_rooms" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_rooms_room_type" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_RoomID" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_service_service_name" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_task_list_works" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_bdEntities.FK_transaction_type_operation" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
